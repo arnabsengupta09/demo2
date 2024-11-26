@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+header{
+    background-color: #caefef;
+}
+.header-row{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo-area{
+    width: 70px;
+}
+.manu-area ul{
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+}
+.manu-area ul li a{
+    text-decoration: none;
+    color: #891010;
+}
+.hero-section{
+    height: 700px;
+    background-image: url(images/24415.jpg);
+    background-repeat: no-repeat;
+    
+}
